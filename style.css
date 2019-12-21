@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    font-family: "Roboto";
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+    line-height: 20vh;
+    font-size: xx-large;
+}
+
+.main {
+    display: grid;
+    font-size: x-large;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+ 
