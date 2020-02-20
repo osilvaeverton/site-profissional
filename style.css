@@ -2,21 +2,25 @@
 
 html {
     font-family: "Roboto";
-    width: 80%;
-    margin: auto;
+}
+
+.body {
+    background-image: url('assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 .header {
     display: grid;
     text-align: center;
-    line-height: 20vh;
-    font-size: xx-large;
+    line-height: 10vh;
+    font-size: x-large;
+    color: white;
 }
 
-.main {
-    display: grid;
-    font-size: x-large;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
  
